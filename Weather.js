@@ -25,23 +25,23 @@ const weatherIcon=document.querySelector(".weather-icon");
 			}
 			else if(data.weather[0].main=="Clear")
 			{
-				weatherIcon.src="images/clear.jpg";
+				weatherIcon.src="clear.jpg";
 			}
 			else if(data.weather[0].main=="Rain")
 			{
-				weatherIcon.src="images/rain.jpg";
+				weatherIcon.src="rain.jpg";
 			}
 			else if(data.weather[0].main=="Drizzle")
 			{
-				weatherIcon.src="images/drizzle.jpg";
+				weatherIcon.src="drizzle.jpg";
 			}
 			else if(data.weather[0].main=="Mist")
 			{
-				weatherIcon.src="images/mist.jpg";
+				weatherIcon.src="mist.jpg";
 			}
 			else if(data.weather[0].main=="Snow")
 			{
-				weatherIcon.src="images/snow.jpg";
+				weatherIcon.src="snow.jpg";
 			}
 			document.querySelector(".weather").style.display="block";
 			document.querySelector(".error").style.display="none";
